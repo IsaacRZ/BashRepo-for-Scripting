@@ -10,5 +10,5 @@ else
 fi
 
 echo "Mi rama de prueba $NOMBRE, rama de prueba"
-<<<<<<< HEAD
+
 echo "GIT PRUEBA ESTO HARA UN CONFLICTO!"
