@@ -10,4 +10,4 @@ else
 fi
 
 echo "Mi rama de prueba $NOMBRE, rama de prueba"
-echo "GIT PRUEBA"
+echo "GIT PRUEBA CONFLICTO EN LINEA 13"
