@@ -9,4 +9,4 @@ else
   echo "Buenos noches $Nombre, la hora actual es: $(date +%H:%M)"
 fi
 
-echo "Mi rama de prueba"
+echo "Mi rama de prueba $NOMBRE, rama de prueba"
