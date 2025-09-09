@@ -12,3 +12,7 @@ fi
 echo "Mi rama de prueba $NOMBRE, rama de prueba"
 
 echo "GIT PRUEBA ESTO HARA UN CONFLICTO!"
+
+echo "conflicto eliminado"
+
+echo "NO ELIMINAR"
