@@ -13,6 +13,6 @@ echo "Mi rama de prueba $NOMBRE, rama de prueba"
 
 echo "GIT PRUEBA ESTO HARA UN CONFLICTO!"
 
-echo "conflicto eliminado"
+echo "Otro conflicto"
 
-echo "NO ELIMINAR"
+echo "ELIMINAR LINEA"
