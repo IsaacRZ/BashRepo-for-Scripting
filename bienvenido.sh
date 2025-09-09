@@ -1,5 +1,5 @@
-NOMBRE="Isaac"
-HORA=$(date +%H)
+NOMBRE="Isaac Rodriguez"
+HORA=$(date +%H:%M)
 
 if [ $HORA -ge 6 ] && [ $HORA -lt 12 ]; then
   echo "Buenos dias $Nombre, la hora actual es: $(date +%H:%M)"
