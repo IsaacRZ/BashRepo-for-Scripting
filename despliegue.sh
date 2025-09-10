@@ -8,10 +8,11 @@ if [[ -n $(git status --porcelain) ]]; then
   echo "❌ Error: Cambios sin confirmar. Realizar un commit o stashea los cambios"
   exit 1 #Detenie el script en caso
 fi
+
 # 2) Checkear cambios sin confirmar 
 #Def. Variables (Nombres y rutas)
 DIRECTORIO_DESPLIEGUE="produccion"
-SCRIPT_ORIGEN="bienvenido.sh"
+SCRIPT_ORIGEN="$1"
 
 # 3) Crear copia de "despliegue" si no existe
 echo "📂 Verificando directorio de despliegue"
