@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1) Sincronizar repositorio para tener la ultima version del codigo
-echo "Verificando estado repositorio"
+echo "Verificando estado repositorio y actualizando a la ultima version disponible"
 git pull origin main
 
 if [[ -n $(git status --porcelain) ]]; then
@@ -13,6 +13,11 @@ fi
 #Def. Variables (Nombres y rutas)
 DIRECTORIO_DESPLIEGUE="produccion"
 SCRIPT_ORIGEN="$1"
+
+#Condicional si el numero de parametros es igual a 0
+if [ $# -eq 0 ]; then
+  echo "❌ Parametros o argumentos faltantes."
+  echo "Us"
 
 # 3) Crear copia de "despliegue" si no existe
 echo "📂 Verificando directorio de despliegue"
